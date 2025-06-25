@@ -89,7 +89,13 @@ Os seguintes pacotes Python são necessários:
 
 Instale-os com:
 ```bash
-pip install openai sounddevice soundfile python-dotenv keyboard
+#  pip install openai sounddevice soundfile python-dotenv keyboard python-multipart
+ pip install fastapi uvicorn flask-cors sounddevice soundfile openai python-dotenv  python-multipart
+```
+
+Rodar
+```bash
+   uvicorn main:app --reload --port 8000
 ```
 
 ## Notas

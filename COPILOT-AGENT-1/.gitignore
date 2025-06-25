@@ -1,0 +1,6 @@
+vosk-model-*/
+*.mdl
+
+__pycache__
+.env
+.venv
